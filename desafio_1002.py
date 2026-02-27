@@ -1,4 +1,4 @@
-²"""
+"""
 Beecrowd 1002 - Área do Círculo
 
 A fórmula para calcular a área de uma circunferência é: area = π . raio².
