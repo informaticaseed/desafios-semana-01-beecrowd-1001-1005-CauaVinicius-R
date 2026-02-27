@@ -18,3 +18,13 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+# Lê as duas notas como ponto flutuante
+A = float(input())
+B = float(input())
+
+# Pesos: A tem peso 3.5 e B tem peso 7.5
+# A soma dos pesos é 11.0
+media = ((A * 3.5) + (B * 7.5)) / 11.0
+
+# Imprime com 5 casas decimais (padrão aceito para este problema)
+print(f"MEDIA = {media:.5f}")
