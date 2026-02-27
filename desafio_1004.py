@@ -23,4 +23,4 @@ B = int(input())
 PROD = A * B
 
 # Exibe o resultado com a formatação exigida
-print(f"PROD = {PROD}")
+print("PROD = {PROD}")
