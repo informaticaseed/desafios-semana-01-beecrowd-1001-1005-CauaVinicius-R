@@ -9,4 +9,4 @@ b = int(input())
 x = a + b
 
 # Imprime o resultado no formato exato: X = [resultado]
-print(f"X = {x}")
+print("X = {x}")
