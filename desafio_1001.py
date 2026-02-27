@@ -7,8 +7,17 @@ Imprima X conforme exemplo apresentado abaixo.
 Não apresente mensagem alguma além daquilo que está sendo especificado e
 não esqueça de imprimir o fim de linha após o resultado, caso contrário,
 você receberá "Presentation Error".
-"""
+""" deixa eu só pra deixar ligando.
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+# Lê os dois valores inteiros
+a = int(input())
+b = int(input())
+
+# Realiza a soma
+x = a + b
+
+# Imprime o resultado no formato exato: X = [resultado]
+print(f"X = {x}")
