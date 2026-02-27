@@ -1,4 +1,4 @@
-"""
+²"""
 Beecrowd 1002 - Área do Círculo
 
 A fórmula para calcular a área de uma circunferência é: area = π . raio².
@@ -18,3 +18,14 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+# Define o valor de pi conforme o enunciado
+pi = 3.14159
+
+# Lê o raio como ponto flutuante (float)
+raio = float(input())
+
+# Calcula a área (raio ao quadrado pode ser raio * raio ou raio ** 2)
+area = pi * (raio ** 2)
+
+# Imprime com 4 casas decimais (.4f)
+print(f"A={area:.4f}")
