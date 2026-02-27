@@ -27,4 +27,4 @@ B = float(input())
 media = ((A * 3.5) + (B * 7.5)) / 11.0
 
 # Imprime com 5 casas decimais (padrão aceito para este problema)
-print(f"MEDIA = {media:.5f}")
+print("MEDIA = {media:.5f}")
